@@ -1,1 +1,869 @@
-[{"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add profile", "content_type": 7, "codename": "add_profile"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change profile", "content_type": 7, "codename": "change_profile"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete profile", "content_type": 7, "codename": "delete_profile"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view profile", "content_type": 7, "codename": "view_profile"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add book", "content_type": 8, "codename": "add_book"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change book", "content_type": 8, "codename": "change_book"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete book", "content_type": 8, "codename": "delete_book"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view book", "content_type": 8, "codename": "view_book"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add category", "content_type": 9, "codename": "add_category"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change category", "content_type": 9, "codename": "change_category"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete category", "content_type": 9, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view category", "content_type": 9, "codename": "view_category"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add book review", "content_type": 10, "codename": "add_bookreview"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change book review", "content_type": 10, "codename": "change_bookreview"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete book review", "content_type": 10, "codename": "delete_bookreview"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view book review", "content_type": 10, "codename": "view_bookreview"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add borrowing", "content_type": 11, "codename": "add_borrowing"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change borrowing", "content_type": 11, "codename": "change_borrowing"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete borrowing", "content_type": 11, "codename": "delete_borrowing"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view borrowing", "content_type": 11, "codename": "view_borrowing"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$870000$H8XmC25ChXaAOY13SO6BJP$HBDpaw0zDo+yTWWkaGDsTErK/8QLHxms5reIkDBFovk=", "last_login": "2024-12-02T09:29:56.431Z", "is_superuser": false, "username": "riyad", "first_name": "Riyad", "last_name": "Hossain", "email": "riyadhossain.dev@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2024-12-02T09:29:36.580Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "accounts", "model": "profile"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "books", "model": "book"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "books", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "books", "model": "bookreview"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "borrowing", "model": "borrowing"}}, {"model": "sessions.session", "pk": "26gs5gnmeoj9rosm5ztliolhslijkepd", "fields": {"session_data": ".eJxVjDsOwyAQBe9CHSGD-aZM7zOgBXaDkwgkY1dR7h5bcpG0b2bemwXY1hK2jkuYM7sywS6_W4T0xHqA_IB6bzy1ui5z5IfCT9r51DK-bqf7d1Cgl732Jo9WkXGGXESM0uukvRgGsoYkSRROO9BgR5N8Hj2BoqQ86t2XGoh9vt8hOAQ:1tI2ke:3xM-P690Q2_b6kDBbhlRIxPyXexcI5m22Jr-PuoeaS4", "expire_date": "2024-12-16T09:29:56.435Z"}}, {"model": "accounts.profile", "pk": 1, "fields": {"user": 1, "balance": "10000.00"}}]
+[
+    {
+      "model": "admin.logentry",
+      "pk": 1,
+      "fields": {
+        "action_time": "2024-12-02T04:43:27.741Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Category object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 2,
+      "fields": {
+        "action_time": "2024-12-02T04:43:38.136Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Category object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 3,
+      "fields": {
+        "action_time": "2024-12-02T04:43:46.184Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Category object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 4,
+      "fields": {
+        "action_time": "2024-12-02T04:43:52.382Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Category object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 5,
+      "fields": {
+        "action_time": "2024-12-02T04:43:55.683Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Category object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 6,
+      "fields": {
+        "action_time": "2024-12-02T04:43:59.413Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Category object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 7,
+      "fields": {
+        "action_time": "2024-12-02T04:44:05.882Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Category object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 8,
+      "fields": {
+        "action_time": "2024-12-02T04:47:44.461Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Journey Toward Eternity something 200",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 9,
+      "fields": {
+        "action_time": "2024-12-02T04:48:03.650Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Journey Toward Eternity 2 somehting 150",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 10,
+      "fields": {
+        "action_time": "2024-12-02T04:48:27.361Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Journey Toward Eternity 3 something 500",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 11,
+      "fields": {
+        "action_time": "2024-12-02T04:48:47.359Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "A Book Read books 1000",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 1,
+      "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 2,
+      "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 3,
+      "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 4,
+      "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 5,
+      "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 6,
+      "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 7,
+      "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 8,
+      "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 9,
+      "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 10,
+      "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 11,
+      "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 12,
+      "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 13,
+      "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 14,
+      "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 15,
+      "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 16,
+      "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 17,
+      "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 18,
+      "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 19,
+      "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 20,
+      "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 21,
+      "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 22,
+      "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 23,
+      "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 24,
+      "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 25,
+      "fields": {
+        "name": "Can add profile",
+        "content_type": 7,
+        "codename": "add_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 26,
+      "fields": {
+        "name": "Can change profile",
+        "content_type": 7,
+        "codename": "change_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 27,
+      "fields": {
+        "name": "Can delete profile",
+        "content_type": 7,
+        "codename": "delete_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 28,
+      "fields": {
+        "name": "Can view profile",
+        "content_type": 7,
+        "codename": "view_profile"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 29,
+      "fields": {
+        "name": "Can add book review",
+        "content_type": 8,
+        "codename": "add_bookreview"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 30,
+      "fields": {
+        "name": "Can change book review",
+        "content_type": 8,
+        "codename": "change_bookreview"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 31,
+      "fields": {
+        "name": "Can delete book review",
+        "content_type": 8,
+        "codename": "delete_bookreview"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 32,
+      "fields": {
+        "name": "Can view book review",
+        "content_type": 8,
+        "codename": "view_bookreview"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 33,
+      "fields": {
+        "name": "Can add category",
+        "content_type": 9,
+        "codename": "add_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 34,
+      "fields": {
+        "name": "Can change category",
+        "content_type": 9,
+        "codename": "change_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 35,
+      "fields": {
+        "name": "Can delete category",
+        "content_type": 9,
+        "codename": "delete_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 36,
+      "fields": {
+        "name": "Can view category",
+        "content_type": 9,
+        "codename": "view_category"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 37,
+      "fields": {
+        "name": "Can add book",
+        "content_type": 10,
+        "codename": "add_book"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 38,
+      "fields": {
+        "name": "Can change book",
+        "content_type": 10,
+        "codename": "change_book"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 39,
+      "fields": {
+        "name": "Can delete book",
+        "content_type": 10,
+        "codename": "delete_book"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 40,
+      "fields": {
+        "name": "Can view book",
+        "content_type": 10,
+        "codename": "view_book"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 41,
+      "fields": {
+        "name": "Can add borrowing",
+        "content_type": 11,
+        "codename": "add_borrowing"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 42,
+      "fields": {
+        "name": "Can change borrowing",
+        "content_type": 11,
+        "codename": "change_borrowing"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 43,
+      "fields": {
+        "name": "Can delete borrowing",
+        "content_type": 11,
+        "codename": "delete_borrowing"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 44,
+      "fields": {
+        "name": "Can view borrowing",
+        "content_type": 11,
+        "codename": "view_borrowing"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 45,
+      "fields": {
+        "name": "Can add borrowing",
+        "content_type": 12,
+        "codename": "add_borrowing"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 46,
+      "fields": {
+        "name": "Can change borrowing",
+        "content_type": 12,
+        "codename": "change_borrowing"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 47,
+      "fields": {
+        "name": "Can delete borrowing",
+        "content_type": 12,
+        "codename": "delete_borrowing"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 48,
+      "fields": {
+        "name": "Can view borrowing",
+        "content_type": 12,
+        "codename": "view_borrowing"
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$870000$bs4GrZYtXMYFPaVJUBAOFm$SNbU6C/iFGsSKn/apy3CiDQWh3DNd+4SRvBYdcRyz4E=",
+        "last_login": "2024-12-02T03:34:48.709Z",
+        "is_superuser": false,
+        "username": "riyad",
+        "first_name": "Riyad",
+        "last_name": "Hossain",
+        "email": "riyadhossain.dev@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-12-02T03:04:51.550Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 2,
+      "fields": {
+        "password": "pbkdf2_sha256$870000$Yy6clhj7uTa48aVUkE40lZ$64eMr+5OJagePryF3fgmtNclghIOmuhXMnuedQ0Q7Mg=",
+        "last_login": "2024-12-02T03:06:00.467Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-12-02T03:05:45.381Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 1,
+      "fields": { "app_label": "admin", "model": "logentry" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 2,
+      "fields": { "app_label": "auth", "model": "permission" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 3,
+      "fields": { "app_label": "auth", "model": "group" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 4,
+      "fields": { "app_label": "auth", "model": "user" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 5,
+      "fields": { "app_label": "contenttypes", "model": "contenttype" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 6,
+      "fields": { "app_label": "sessions", "model": "session" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 7,
+      "fields": { "app_label": "accounts", "model": "profile" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 8,
+      "fields": { "app_label": "books", "model": "bookreview" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 9,
+      "fields": { "app_label": "books", "model": "category" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 10,
+      "fields": { "app_label": "books", "model": "book" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 11,
+      "fields": { "app_label": "books", "model": "borrowing" }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 12,
+      "fields": { "app_label": "borrowing", "model": "borrowing" }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "1davmshs8kn4cf51070ffokllpv965wr",
+      "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGlnejT8xJX3OYK1_OIBsKU4qxN1JpBRQzrw382aOtrW4rafFzZFdGbLLb-cpPFM9QHxQvTceWl2X2fND4SftfGoxvW6n-3dQqJd9bTJ5kaUiyKgBcZBKWKNRClIDgBV7tEGN2sIARhpLgKQ1EWZFaozs8wWifzYW:1tHwl6:gzfLUZeyzQLxdRo08ErZg4tQk6tQ8Ocw0wGcIbiQ9X0",
+        "expire_date": "2024-12-16T03:06:00.518Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "csi3dyntws10nkduzerm5arfjrgxvwg6",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hDoALUu3fcMzcwwSNVAUtqV8e7apAvd_vfef6kJtzVPW5NlmqO6KKtOvxshP6TsIN6x3KrmWtZlJr0r-qBNjzXK83q4fwcZW_7W1AP4EK2HXlzCaLyBIGxBjDjqiAOCeLGeBgAbEgeXBus6w4aJz6jeH9pdN-Q:1tHxCy:IQQDKmFOPYym2H3odoqT3sw0iM7HcmWWrTRgtd0S35I",
+        "expire_date": "2024-12-16T03:34:48.729Z"
+      }
+    },
+    {
+      "model": "accounts.profile",
+      "pk": 1,
+      "fields": { "user": 1, "balance": "750.00" }
+    },
+    {
+      "model": "books.category",
+      "pk": 1,
+      "fields": { "category_name": "Si-fi" }
+    },
+    {
+      "model": "books.category",
+      "pk": 2,
+      "fields": { "category_name": "Islam" }
+    },
+    {
+      "model": "books.category",
+      "pk": 3,
+      "fields": { "category_name": "Finace" }
+    },
+    {
+      "model": "books.category",
+      "pk": 4,
+      "fields": { "category_name": "Poetry" }
+    },
+    {
+      "model": "books.category",
+      "pk": 5,
+      "fields": { "category_name": "Novel" }
+    },
+    {
+      "model": "books.category",
+      "pk": 6,
+      "fields": { "category_name": "Story" }
+    },
+    {
+      "model": "books.category",
+      "pk": 7,
+      "fields": { "category_name": "Politics" }
+    },
+    {
+      "model": "books.book",
+      "pk": 1,
+      "fields": {
+        "title": "Journey Toward Eternity",
+        "description": "something",
+        "image": "images/company-logo-1-160x160.png",
+        "borrowing_price": 200,
+        "category": 2
+      }
+    },
+    {
+      "model": "books.book",
+      "pk": 2,
+      "fields": {
+        "title": "Journey Toward Eternity 2",
+        "description": "somehting",
+        "image": "images/company-logo-5-160x160.png",
+        "borrowing_price": 150,
+        "category": 1
+      }
+    },
+    {
+      "model": "books.book",
+      "pk": 3,
+      "fields": {
+        "title": "Journey Toward Eternity 3",
+        "description": "something",
+        "image": "images/company-logo-4-160x160.png",
+        "borrowing_price": 500,
+        "category": 2
+      }
+    },
+    {
+      "model": "books.book",
+      "pk": 4,
+      "fields": {
+        "title": "A Book",
+        "description": "Read books",
+        "image": "images/company-logo-7-160x160.png",
+        "borrowing_price": 1000,
+        "category": 6
+      }
+    },
+    {
+      "model": "books.bookreview",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "review_text": "book = cleaned_data.get('book')",
+        "timestamp": "2024-12-02"
+      }
+    },
+    {
+      "model": "books.bookreview",
+      "pk": 2,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "review_text": "book = cleaned_data.get('book')",
+        "timestamp": "2024-12-02"
+      }
+    },
+    {
+      "model": "books.bookreview",
+      "pk": 3,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "review_text": "bookdetails_page",
+        "timestamp": "2024-12-02"
+      }
+    },
+    {
+      "model": "books.bookreview",
+      "pk": 4,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "review_text": "This is a very good book",
+        "timestamp": "2024-12-02"
+      }
+    },
+    {
+      "model": "borrowing.borrowing",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "balance_after_borrowing": "100.00",
+        "borrowing_date": "2024-12-02",
+        "return_date": "2024-12-02"
+      }
+    },
+    {
+      "model": "borrowing.borrowing",
+      "pk": 2,
+      "fields": {
+        "user": 1,
+        "book": 2,
+        "balance_after_borrowing": "150.00",
+        "borrowing_date": "2024-12-02",
+        "return_date": "2024-12-02"
+      }
+    },
+    {
+      "model": "borrowing.borrowing",
+      "pk": 3,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "balance_after_borrowing": "550.00",
+        "borrowing_date": "2024-12-02",
+        "return_date": "2024-12-02"
+      }
+    },
+    {
+      "model": "borrowing.borrowing",
+      "pk": 4,
+      "fields": {
+        "user": 1,
+        "book": 1,
+        "balance_after_borrowing": "350.00",
+        "borrowing_date": "2024-12-02",
+        "return_date": "2024-12-02"
+      }
+    },
+    {
+      "model": "borrowing.borrowing",
+      "pk": 5,
+      "fields": {
+        "user": 1,
+        "book": 2,
+        "balance_after_borrowing": "750.00",
+        "borrowing_date": "2024-12-02",
+        "return_date": null
+      }
+    }
+  ]
+  
